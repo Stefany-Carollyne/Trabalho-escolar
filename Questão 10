@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    float baseMaior, baseMenor, altura;
+    printf("Digite o valor da base maior: ");
+    scanf("%f", &baseMaior);
+    printf("Digite o valor da base menor: ");
+    scanf("%f", &baseMenor);
+    printf("Digite o valor da altura: ");
+    scanf("%f", &altura);
+    float area = ((baseMaior + baseMenor) * altura) / 2.0;
+    printf("Área: %.2f\n", area);
+    return 0;
+}
