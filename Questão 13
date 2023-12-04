@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main() {
+    int A, B, C;
+    scanf("%d %d %d", &A, &B, &C);
+    int soma_quadrados = (A * A) + (B * B) + (C * C);
+    printf("%d\n", soma_quadrados);
+    return 0;
+}
