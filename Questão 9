@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float raio;
+    printf("Digite o valor do raio: ");
+    scanf("%f", &raio);
+    float volume = (4.0 / 3.0) * M_PI * pow(raio, 3);
+    printf("Volume: %.2f\n", volume);
+    return 0;
+}
