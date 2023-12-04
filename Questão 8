@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    float raio;
+    printf("Digite o valor do raio: ");
+    scanf("%f", &raio);
+    float area = M_PI * raio * raio;
+    float comprimento = 2 * M_PI * raio;
+    printf("Área: %.2f\n", area);
+    printf("Comprimento: %.2f\n", comprimento);
+    return 0;
+}
