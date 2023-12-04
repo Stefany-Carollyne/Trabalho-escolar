@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    float numero1, numero2;
+    printf("Digite o primeiro numero: ");
+    scanf("%f", &numero1);
+    printf("Digite o segundo numero: ");
+    scanf("%f", &numero2);
+    if (numero2 != 0) {
+        float divisao = numero1 / numero2;
+        printf("Resultado da divisao: %.2f\n", divisao);
+    } else {
+        printf("Nao e possivel dividir por zero.\n");
+    }
+    return 0;
+}
