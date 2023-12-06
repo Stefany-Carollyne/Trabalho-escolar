@@ -2,9 +2,9 @@
 
 int main() {
     float numero1, numero2;    
-    printf("Digite o primeiro numero: ");
+    printf("Digite o primeiro numero");
     scanf("%f", &numero1);
-    printf("Digite o segundo numero: ");
+    printf("Digite o segundo numero");
     scanf("%f", &numero2);
     float soma = numero1 + numero2;
     float subtracao = numero1 - numero2;
