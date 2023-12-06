@@ -2,11 +2,11 @@
 
 int main() {
     int numero1, numero2, numero3;
-    printf("Digite o primeiro numero: ");
+    printf("Digite o primeiro numero");
     scanf("%d", &numero1);
-    printf("Digite o segundo numero: ");
+    printf("Digite o segundo numero");
     scanf("%d", &numero2);
-    printf("Digite o terceiro numero: ");
+    printf("Digite o terceiro numero:");
     scanf("%d", &numero3);
     int soma = numero1 + numero2 + numero3;
     int subtracao = numero1 - numero2 - numero3;
